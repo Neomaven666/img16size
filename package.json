@@ -1,6 +1,6 @@
 {
   "main": "index.html",
-  "name": "Image converter",
+  "name": "image-converter",
   "description": "generate different size of image",
   "version": "0.1.0",
   "keywords": [
