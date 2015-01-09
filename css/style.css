@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    background-image: url("Nice-Background-6.jpg");
+}
+
+#drop {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    line-height: 260px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    /*color: #CCC;*/
+
+    color: #fff;
+
+    /*border: 5px dashed #CCC;*/
+    /*border-radius: 6px;*/
+
+    border-radius: 54px 54px 54px 54px;
+    -moz-border-radius: 54px 54px 54px 54px;
+    -webkit-border-radius: 54px 54px 54px 54px;
+    border: 5px dashed #313857;
+
+}
+
+#drop.hover {
+    color: #8dd0ff;
+    border-color: #8dd0ff;
+}
